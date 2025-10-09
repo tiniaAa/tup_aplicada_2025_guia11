@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36401.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometriaModels", "GeometriaModels\GeometriaModels.csproj", "{0B99DBB0-0A82-4CD3-96B1-0ABF1BF3F4E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometriaDesktop", "GeometriaDesktop\GeometriaDesktop.csproj", "{A1C0123D-F328-4516-A9F1-0BCC47A16FF5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0B99DBB0-0A82-4CD3-96B1-0ABF1BF3F4E9} = {0B99DBB0-0A82-4CD3-96B1-0ABF1BF3F4E9}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B99DBB0-0A82-4CD3-96B1-0ABF1BF3F4E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B99DBB0-0A82-4CD3-96B1-0ABF1BF3F4E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B99DBB0-0A82-4CD3-96B1-0ABF1BF3F4E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B99DBB0-0A82-4CD3-96B1-0ABF1BF3F4E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1C0123D-F328-4516-A9F1-0BCC47A16FF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1C0123D-F328-4516-A9F1-0BCC47A16FF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1C0123D-F328-4516-A9F1-0BCC47A16FF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1C0123D-F328-4516-A9F1-0BCC47A16FF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {553DA82E-9F24-4558-A4CA-DFB88757B55A}
+	EndGlobalSection
+EndGlobal
